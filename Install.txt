@@ -1,0 +1,10 @@
+1. Create and Import ramom.sql
+2. Upload and Unzip main_script_v6.6.zip to your hosting.
+2. Edit file ../applicatio/config/database.php and change info your database.
+	'username' => 'ramom',
+	'password' => '123456',
+	'database' => 'ramom',
+	
+3. Login:
+Superadmin: superadmin@ramom.com
+Password: 1234
