@@ -1,0 +1,94 @@
+# ============================================
+# .gitignore for Ramom School v6.6
+# CodeIgniter PHP Project
+# ============================================
+
+# ---------------------------
+# 🔐 SENSITIVE CONFIG FILES
+# ---------------------------
+main_script_v6.6/main_script_v6.6/application/config/database.php
+main_script_v6.6/main_script_v6.6/application/config/purchase_key.php
+main_script_v6.6/main_script_v6.6/application/config/config.php
+
+# ---------------------------
+# 📝 APPLICATION LOGS
+# ---------------------------
+main_script_v6.6/main_script_v6.6/application/logs/*
+!main_script_v6.6/main_script_v6.6/application/logs/index.html
+
+# ---------------------------
+# 🗂️ APPLICATION CACHE
+# ---------------------------
+main_script_v6.6/main_script_v6.6/application/cache/*
+!main_script_v6.6/main_script_v6.6/application/cache/index.html
+!main_script_v6.6/main_script_v6.6/application/cache/.htaccess
+
+# ---------------------------
+# 🗜️ ZIP / ARCHIVE FILES
+# ---------------------------
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ---------------------------
+# 🗄️ DATABASE DUMP FILES
+# (Optional: comment out if you WANT to include ramom.sql)
+# ---------------------------
+# *.sql
+
+# ---------------------------
+# 🖥️ OS GENERATED FILES
+# ---------------------------
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ---------------------------
+# 📝 EDITOR / IDE FILES
+# ---------------------------
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains (PhpStorm, etc.)
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Notepad++
+nppBackup/
+
+# ---------------------------
+# 🐘 PHP SPECIFIC
+# ---------------------------
+# Composer dependencies
+vendor/
+composer.lock
+
+# ---------------------------
+# 🌐 SERVER FILES (keep .htaccess)
+# ---------------------------
+# Keep .htaccess files
+!.htaccess
+!**/.htaccess
+
+# ---------------------------
+# 🔧 TEMP & BACKUP FILES
+# ---------------------------
+*.tmp
+*.bak
+*.swp
+*.log
+*~
